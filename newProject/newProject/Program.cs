@@ -8,6 +8,7 @@ namespace newProject
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             string a;
@@ -15,6 +16,11 @@ namespace newProject
             a = Console.ReadLine();
 
             Console.WriteLine($"привет {a}, хорошего тебе дня!!!");
+
+           
+
+            int d = 2 + 2;
+            Console.WriteLine(d);
 
             Console.ReadKey();
         }
